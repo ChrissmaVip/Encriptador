@@ -1,0 +1,160 @@
+body{
+    width: 100%;
+    background: url(imagenes/Tablones.jpg);
+    
+
+}
+.encriptar-texto{
+    font-size: 400%;
+    margin: 20px 0 0 100px;
+    color: rgb(253, 72, 0);
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 4px black;
+        
+}
+
+.main{
+    position: relative;
+    display: block;
+    }
+.text-area{
+   font-size: 30px;
+    margin: 20px 0 0 80px;
+    border-radius: 10px;
+    
+}
+
+.texto-mensaje{
+      margin: 220px 0 0 100px;
+      font-size: 30px;
+}
+.botones{
+    width: 20%;
+    margin: 60px 0 0 70px;
+    font-size: 60px; 
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 2px 4px;
+    background: rgb(8, 103, 247);
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    
+}
+.botones:hover{
+    font-size: 65px;
+}
+#copiar{
+    margin-left: 350px;
+}
+
+
+.caja{  
+    
+    position: absolute;
+    top: 1px;
+    margin-left: 1200px;
+    width: 30%;
+    height: 620px;
+    padding: 20px 20px;
+    background: #fefefe;
+    border: 10px solid hsl(236, 62%, 28%);
+    border-radius: 20px;
+    display: block;
+    
+}
+
+.items{
+    margin: 10px 0 0 0; 
+    text-align: center;
+}
+img{
+
+     margin: 20px 0 0 100px;
+     
+}
+.texto-oculto{
+   
+    position: absolute;
+    width: 80%;
+    margin: 20px;
+    font-size: 30px;
+    
+}
+.texto-mensaje1{
+   
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px ;
+}
+
+
+footer{
+ 
+    width: 100%;
+    height: 40px;
+    margin: 50px 0 auto 0;
+    padding: 1px;
+    text-align: center;
+    background: rgb(245, 123, 24);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fefefe;
+}
+footer p{
+    margin-top: 10px;
+}
+
+/* RESPOSIVE PARA CELULARES 
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------*/
+
+@media screen and (max-width:1280px) {
+
+    body{
+        width: auto;
+        
+    }
+     .encriptar-texto, .text-area, .botones, .texto-mensaje, #imgDonal{
+        margin-top: auto;
+        margin-left: auto;
+        text-align: center;
+     }
+     .text-area{
+        margin: auto;
+     }
+    .encriptar-texto, .text-area, .caja{
+        width: 100%;
+       
+    }
+    .botones{
+        display: inline;
+        width: 100%;
+    }
+    #copiar{
+      margin-left: auto;
+      text-align: center;
+    }
+    .caja{
+        width: auto;
+        position: static;
+        margin: auto;
+    }
+    #imgDonal{
+        display: block;
+        margin: auto;
+        
+    }
+    .texto-oculto{
+        text-align: center;
+      
+    }
+    .texto-mensaje1, .texto-mensaje {
+        text-align: center;
+    }
+
+}

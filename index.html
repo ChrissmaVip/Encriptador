@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Incriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+        <h1 class="encriptar-texto"></h1>
+
+
+        <main class="main">
+            <div class="">
+                <ul class="lista-uno">
+                    <li><textarea name="mensaje" class="text-area" id="textarea" cols="60" rows="10" placeholder="Ingrese el texto aquí"></textarea></li>
+                    <li class="texto-mensaje">Solo letras minúsculas y sin acentos</li>
+                    <li><button class="botones" onclick="encriptar()">Encriptar</button>
+                        <button class="botones" onclick="desencriptar()">Desencriptar</button>
+                        <button class="botones" id="copiar" onclick="copiar()">Copiar</button></li>
+
+             
+                </ul>
+                     
+            </div>
+            <div class="caja">
+            <ul>  
+                <li><label class="texto-oculto" id="textoOculto"></label></li>
+                <li><img src="imagenes/Pato-donalpro.png" alt="imagen del Pato Donal" id="imgDonal"></li>
+                <li class="items"><label for="texto-mensaje1" class="texto-mensaje1" id="textoMensaje1"></label></li>
+                <li class="items"><p class="texto-mensaje2" id="textoMensaje2"></p></li>
+                
+            </ul>
+            </div>
+            
+     
+       </main>
+
+       <footer>
+                  <p>♕ Creado por Galda Christian - 2024</p>
+       </footer>
+       
+         <script src="app.js"></script>  
+</body>
+
+
+
+</html>
