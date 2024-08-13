@@ -1,3 +1,3 @@
 # Encriptador
 
-![captura del Post](Post.png)
+![captura del Post](img-encriptador.png)
